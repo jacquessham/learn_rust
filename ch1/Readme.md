@@ -3,7 +3,7 @@ In this chapter, we will go over <a href="https://doc.rust-lang.org/book/title-p
 
 ## Lesson 1: Hello World
 File for this lesson:  <i>main.rs</i><br>
-It can be found in the [Lesson 1 Folder](/lesson1)
+It can be found in the <a href="https://github.com/jacquessham/learn_rust/tree/main/ch1/lesson1">Lesson 1 Folder</a>
 <br><br>
 In Rust, <b>println!()</b> is the print line statement.
 <br><br>
