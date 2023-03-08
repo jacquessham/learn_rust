@@ -4,8 +4,10 @@ Repository to store the scripts when I learn React. The goal is to understand ho
 ## Chapter 1: Basic Syntax
 In this chapter, we will go over <a href="https://doc.rust-lang.org/book/title-page.html">The Book (The Rust Programming Language)</a> to learn the basic syntax in Rust. You may find more in the <a href="https://github.com/jacquessham/learn_rust/tree/main/ch1">Chapter 1 folder</a>.
 
+## Chapter 2: Exercises
+Coming Soon...
 
-## Chapter 2: ETL Pipelines with Rust
+## Chapter 3: ETL Pipelines with Rust
 Coming soon...
 
 ## Reference
