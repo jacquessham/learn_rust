@@ -21,6 +21,18 @@ It can be found in the <a href="https://github.com/jacquessham/learn_rust/tree/m
 In this lesson, we will go over how to utilize <i>Cargo</i> for build system and package management.
 
 ## Lesson 3: Variables, Data Types, and Comments
+File for this lesson:  <i>lesson3.rs</i><br>
+It can be found in the <a href="https://github.com/jacquessham/learn_rust/tree/main/ch1/lesson3">Lesson 3 Folder</a>
+<br><br>
+By default variables are <b>immutable</b>, and you have to use the keyword <b>let</b> to declare a variable. If you want to declare an immutable or mutable varibale, here is the syntax:
+
+```
+let x = 5;
+let mut y = 6;
+y = 7;
+```
+
+<br><br>
 Coming Soon...
 
 ## Lesson 4: If-statement
