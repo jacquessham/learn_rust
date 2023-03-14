@@ -48,13 +48,18 @@ let num1: u8 = 12;
 let num2: f8 = 10.8;
 let gate: bool = true;
 let ch: char = 'A';
+let a: (u8, f32, String) = (12, 8.32, "Hello World!".to_string());
+let arr2: [u8; 6] = [1,2,3,4,5,6];
 ```
 
-<br><br>
-Coming Soon...
+<br>
+Note that when you declare a variable with double quotation, it is a <i>&str</i> data type, you should use <i>to_string()</i> function to convert to string.
 
 ## Lesson 4: If-statement
 Coming Soon...
 
 ## Lesson 5: Function
 Coming Soon... 
+
+### Lesson 6: Structure (Class)
+Coming soon...

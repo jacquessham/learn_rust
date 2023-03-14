@@ -143,13 +143,57 @@ let ch: char = 'A';
 ```
 
 ### String
-Coming soon...
+Rust requires double quotations to declare string. There are 3 types:
+<ul>
+	<li><i>String</i>: A dynamic heap string type, like <i>Vec</i>. You may modify the string data because it is mutable</li>
+	<li><i>str</i>: Immutable sequence of UTF-8. It can only handle it behind a pointer</li>
+	<li><i>&str</i>: Normally called a "string slice". You only need it to view of a string as it is immutable</li>
+</ul>
+
+An example is:
+
+```
+let s = "Hello World!" // This is &str
+let t = "Hello World!".to_string() // Convert &str to String
+```
+<br>
+Note: If you declare a variable with double quotation, you need to convert it to string with <i>to_string()</i> function.
+
 
 ### Tuple
-Coming soon...
+Rust also offers tuple as data type. However, tuples in Rust have a fixed length: Once declared, the tuple cannot grow or shrink in size. An example is:
+
+```
+let a: (u8, f32, String) = (12, 8.32, "Hello World!");
+println!("The tuple is {:?}", a)
+```
+
+<br>
+When printing whole tuple in <i>println!()</i>, place <i>{:?}</i> and tuple as a second input like the above example. And here is the example to assign tuple values into 3 variables:
+
+```
+let (x,y,z) = tup;
+```
 
 ### Array
-Coming soon...
+Unlike in Python, but like Java, every element of a Rust array is required to have the same data type and a fixed length. Here is the example:
+
+```
+let arr1 = [1,2,3,4,5];
+let arr2: [u8; 6] = [1,2,3,4,5,6]; // [type, length]
+println!("The whole array of arr1 is {:?}", arr1); // To print array
+```
+
+<br>
+Note: If you come from a Python background, you are not able to append or remove element from an array. If you want to do so, you would want to use a <i>Vec</i>.
+
+<br><br>
+Rust array is 0-based. You may access an element like below:
+
+```
+let elem1 = arr2[0];
+let elem2 = arr2[1];
+```
 
 ## Comment
 In Rust, comments are simply using two slashes like below:

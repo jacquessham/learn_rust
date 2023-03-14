@@ -43,4 +43,20 @@ fn main(){
 	let gate: bool = true;
 	println!("Gate is {gate}");
 
+	// Tuples
+	let a: (u8, f32, String) = (12, 8.32, "Hello World!".to_string());
+	println!("The tuple declared is {:?}", a);
+
+	let (_x, y, _z) = a;
+	println!("The second tuple value is {y}");
+
+	let arr1 = [1,2,3,4,5];
+	println!("The whole array of arr1 is {:?}", arr1);
+
+	let arr2: [u8; 6] = [1,2,3,4,5,6];
+	let elem1 = arr2[0];
+	let elem2 = arr2[1];
+	println!("The first two elements in arr2 are {elem1} and {elem2}");
+
+
 }
