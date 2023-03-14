@@ -33,6 +33,24 @@ y = 7;
 ```
 
 <br><br>
+You may find the data type details of <i>integers</i>, <i>float</i>, <i>boolean</i>, <i>character</i>, <i>string</i>, <i>tuple</i>, <i>array</i>. In Rust:
+<ul>
+	<li><b>integers may be signed or unsigned: Unsigned integer means only positive number are accepted</b></li>
+	<li><b>float can only be 32 or 64 bits</b></li>
+</ul>
+
+<br>
+Examples to assign different data types are:
+
+```
+let num0: i8 = -8;
+let num1: u8 = 12;
+let num2: f8 = 10.8;
+let gate: bool = true;
+let ch: char = 'A';
+```
+
+<br><br>
 Coming Soon...
 
 ## Lesson 4: If-statement

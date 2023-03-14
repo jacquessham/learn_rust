@@ -74,3 +74,88 @@ Shadowing also allow you change the data type when the variable is immutable. Ho
 let word = "hello";
 let word = word.len();
 ```
+
+## Data Type
+The basic data type in Rust are:
+<ul>
+	<li>Integer (Signed/Unsigned)</li>
+	<li>Float</li>
+	<li>Boolean</li>
+	<li>Character</li>
+	<li>Tuple</li>
+	<li>Array</li>
+</ul>
+
+<br>
+You may assign a data type with a colon after the variable name, like below:
+
+```
+let num1: u8 = 12;
+```
+<br>
+Rust is a statiically typed language, which means the data type must be defined at compile time. The compiler usually infer what data type we want to use. In many cases, you are able to convert data type, such as from string to integer. If so, use <i>.parse().expect("Not a number!")</i> like below:
+
+```
+let num1: u8 = "12".parse().expect("Not a number!")
+```
+
+### Integer
+In Rust, there are signed and unsigned integer. The difference between those are whether the variable is possible for the number be negative. <b>Unsigned means integer is possitive only</b>. <b>i8</b> means signed 8-bit while <b>u8</b> means unsigned 8-bit. Example to assign both assigned and unassigned integers are:
+
+```
+let num0: i8 = -8;
+let num1: u8 = 12;
+```
+
+You may use different length: 8, 16, 32, 64, 128. According to some discussion, there is no performance difference in terms of arithmetic computation between signed and unsigned integer in Rust (It means a difference in C/C++).
+
+### Float
+You may use <b>f32</b> to represent 32 bit float number, <b>float is only offering 32 or 64 bits</b>. An example is
+
+```
+let num2: f8 = 10.8;
+```
+
+<br>
+The numeric operations includes addition, subtraction, multiplication, division, and remainder:
+
+```
+let num3 = 1 + 1; // Addition
+let num4 = 4 - 3; // Subtraction
+let num5 = 5 * 5; // Multiplication
+let num6 = 4.5/3.2 // Division to Float
+let num7 = 7/3 // Division to Integer, num7 becomes 2
+let num8 = 8/5 // Reminder, num8 becomes 3
+```
+
+### Boolean
+Both <i>true</i> and <i>false</i> are belongs to Boolean in Rust, and both values are spelled in lowercases. The syntax of the Boolean type is <b>bool</b>.
+
+```
+let gate: bool = true;
+```
+
+### Character
+Rust does differentiate between character and string. Single quotations are used for characters and double quotations are used for string. The syntax of the Character type is <b>char</b>.
+
+```
+let ch: char = 'A';
+```
+
+### String
+Coming soon...
+
+### Tuple
+Coming soon...
+
+### Array
+Coming soon...
+
+## Comment
+In Rust, comments are simply using two slashes like below:
+
+```
+// Assign num10 be 10 in unsigned integer 8
+let num10: u8 = 10
+```
+
