@@ -1,5 +1,5 @@
 # Lesson 3: Variables, Data Types, and Comments
-File for this lesson: <i>main.rs</i>.
+File for this lesson: <i>lesson3.rs</i>.
 <br><br>
 The materials of this lesson can be found in The Book Chapter <a href="https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html">3.1 Variables and Mutability</a>, <a href="https://doc.rust-lang.org/book/ch03-02-data-types.html">3.2 Data Types</a>, <a href="https://doc.rust-lang.org/book/ch03-04-comments.html">3.4 Comments</a>.
 
