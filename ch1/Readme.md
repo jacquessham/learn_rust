@@ -63,11 +63,11 @@ The if-statement syntax are <i>if</i>, <i>else if</i>, <i>else</i>. You may use 
 
 ```
 if num >= 5 {
-		println!("The number is greater than 5");
-	} else if num > 3 {
-		println!("The number is either 3 or 4");
-	} else {
-		println!("The number is less than 3");
+	println!("The number is greater than 5");
+} else if num > 3 {
+	println!("The number is either 3 or 4");
+} else {
+	println!("The number is less than 3");
 }
 
 let num2 = if num >= 5 {"Greater than 5"} else if num > 3 {"Either 3 or 4"} else {"Less than 3"};
