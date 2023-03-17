@@ -81,5 +81,18 @@ In Rust, the function sytnax is <b>fn()</b> followed by a function name and para
 <br>
 You must declare <b>-></b> for functions which have return values and stated the returned data type, the return value is always the final block of a function.
 
-## Lesson 6: Structure (Class)
+## Lesson 6: Loops
+File for this lesson:  <i>lesson6.rs</i><br>
+It can be found in the <a href="https://github.com/jacquessham/learn_rust/tree/main/ch1/lesson4">Lesson 6 Folder</a>
+<br><br>
+There are 3 different loops available in Rust:
+<ul>
+	<li><i>loop</i></li>
+	<li><i>while</i> loop</li>
+	<li><i>for</i> loop</li>
+</ul>
+<br>
+<i>for</i> loop in Rust allows you to for loop in both a range and an array. The syntax of a while loop is <b>while condition {}</b> and the syntax of a for loop is <b>for prime in arr {}</b> or <b>for i in 0..4</b>. Range in Rust lower bound inclusive and upper bound exclusive.
+
+## Lesson 7: Structure (Class)
 Coming soon...
