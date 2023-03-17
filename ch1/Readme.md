@@ -74,7 +74,12 @@ let num2 = if num >= 5 {"Greater than 5"} else if num > 3 {"Either 3 or 4"} else
 ```
 
 ## Lesson 5: Function
-Coming Soon... 
+File for this lesson:  <i>lesson5.rs</i><br>
+It can be found in the <a href="https://github.com/jacquessham/learn_rust/tree/main/ch1/lesson4">Lesson 5 Folder</a>
+<br><br>
+In Rust, the function sytnax is <b>fn()</b> followed by a function name and parameters. Like Java, the parameters are required to stated the data type.
+<br>
+You must declare <b>-></b> for functions which have return values and stated the returned data type, the return value is always the final block of a function.
 
 ## Lesson 6: Structure (Class)
 Coming soon...
