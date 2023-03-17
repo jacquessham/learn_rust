@@ -29,7 +29,9 @@ By default variables are <b>immutable</b>, and you have to use the keyword <b>le
 ```
 let x = 5;
 let mut y = 6;
-y = 7;
+let y:i8 = 7;
+let word = "Hello World!"; // This is &str data type
+let word_str: String = "Hello World!".to_string(); // This is string
 ```
 
 <br><br>
@@ -37,20 +39,8 @@ You may find the data type details of <i>integers</i>, <i>float</i>, <i>boolean<
 <ul>
 	<li><b>integers may be signed or unsigned: Unsigned integer means only positive number are accepted</b></li>
 	<li><b>float can only be 32 or 64 bits</b></li>
+	<li><b>tuples in Rust have a fixed length and fixed element data type</b></li>
 </ul>
-
-<br>
-Examples to assign different data types are:
-
-```
-let num0: i8 = -8;
-let num1: u8 = 12;
-let num2: f8 = 10.8;
-let gate: bool = true;
-let ch: char = 'A';
-let a: (u8, f32, String) = (12, 8.32, "Hello World!".to_string());
-let arr2: [u8; 6] = [1,2,3,4,5,6];
-```
 
 <br>
 Note that when you declare a variable with double quotation, it is a <i>&str</i> data type, you should use <i>to_string()</i> function to convert to string.
@@ -59,19 +49,7 @@ Note that when you declare a variable with double quotation, it is a <i>&str</i>
 File for this lesson:  <i>lesson4.rs</i><br>
 It can be found in the <a href="https://github.com/jacquessham/learn_rust/tree/main/ch1/lesson4">Lesson 4 Folder</a>
 <br><br>
-The if-statement syntax are <i>if</i>, <i>else if</i>, <i>else</i>. You may use a boolean variable for evalution. You may also use if-statement to assign a new variable. Examples are:
-
-```
-if num >= 5 {
-	println!("The number is greater than 5");
-} else if num > 3 {
-	println!("The number is either 3 or 4");
-} else {
-	println!("The number is less than 3");
-}
-
-let num2 = if num >= 5 {"Greater than 5"} else if num > 3 {"Either 3 or 4"} else {"Less than 3"};
-```
+The if-statement syntax are <i>if{}</i>, <i>else if{}</i>, <i>else{}</i>. You may use a boolean variable for evalution. You may also use if-statement to assign a new variable.
 
 ## Lesson 5: Function
 File for this lesson:  <i>lesson5.rs</i><br>
