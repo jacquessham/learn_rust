@@ -113,7 +113,7 @@ You may use different length: 8, 16, 32, 64, 128. According to some discussion, 
 You may use <b>f32</b> to represent 32 bit float number, <b>float is only offering 32 or 64 bits</b>. An example is
 
 ```
-let num2: f8 = 10.8;
+let num2: f32 = 10.8;
 ```
 
 <br>

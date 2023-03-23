@@ -53,7 +53,7 @@ The if-statement syntax are <i>if{}</i>, <i>else if{}</i>, <i>else{}</i>. You ma
 
 ## Lesson 5: Function
 File for this lesson:  <i>lesson5.rs</i><br>
-It can be found in the <a href="https://github.com/jacquessham/learn_rust/tree/main/ch1/lesson4">Lesson 5 Folder</a>
+It can be found in the <a href="https://github.com/jacquessham/learn_rust/tree/main/ch1/lesson5">Lesson 5 Folder</a>
 <br><br>
 In Rust, the function sytnax is <b>fn()</b> followed by a function name and parameters. Like Java, the parameters are required to stated the data type.
 <br>
@@ -61,7 +61,7 @@ You must declare <b>-></b> for functions which have return values and stated the
 
 ## Lesson 6: Loops
 File for this lesson:  <i>lesson6.rs</i><br>
-It can be found in the <a href="https://github.com/jacquessham/learn_rust/tree/main/ch1/lesson4">Lesson 6 Folder</a>
+It can be found in the <a href="https://github.com/jacquessham/learn_rust/tree/main/ch1/lesson6">Lesson 6 Folder</a>
 <br><br>
 There are 3 different loops available in Rust:
 <ul>
