@@ -73,4 +73,7 @@ There are 3 different loops available in Rust:
 <i>for</i> loop in Rust allows you to for loop in both a range and an array. The syntax of a while loop is <b>while condition {}</b> and the syntax of a for loop is <b>for prime in arr {}</b> or <b>for i in 0..4</b>. Range in Rust lower bound inclusive and upper bound exclusive.
 
 ## Lesson 7: Structure (Class)
+File for this lesson:  <i>lesson7.rs</i><br>
+It can be found in the <a href="https://github.com/jacquessham/learn_rust/tree/main/ch1/lesson7">Lesson 6 Folder</a>
+<br><br>
 Coming soon...
