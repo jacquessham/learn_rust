@@ -74,6 +74,6 @@ There are 3 different loops available in Rust:
 
 ## Lesson 7: Structure (Class)
 File for this lesson:  <i>lesson7.rs</i><br>
-It can be found in the <a href="https://github.com/jacquessham/learn_rust/tree/main/ch1/lesson7">Lesson 6 Folder</a>
+It can be found in the <a href="https://github.com/jacquessham/learn_rust/tree/main/ch1/lesson7">Lesson 7 Folder</a>
 <br><br>
 Coming soon...
